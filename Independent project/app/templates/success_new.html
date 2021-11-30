@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="static/basic.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <h1 style="color:darkred;">
+         <a>SIDE BY SIDE PRODUCT COMPARISON </a>
+    </h1>
+
+        <h2 style="color:black;">
+            <a> Product categories: {{ product_one }} and {{ product_two }} </a>
+
+    </h2>
+
+        <div class="alert alert-danger" role="alert">
+  <p class="alert-link">Details </p>
+    </div>
+
+    <img src='{{ full_path_str }}'
+         alt="Summary image" height="700" class="center-img">
+
+    <h3>
+         <a href = "{{ url_for('index') }}">Return to landing page</a>
+    </h3>
+
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="static/basic.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <h1 style="color:darkred;">
+         <a>Oops. You have not entered existing product categories. </a>
+    </h1>
+
+        <h2 style="color:darkred;">
+         <a>This won't work!</a>
+    </h2>
+
+        <div class="alert alert-danger" role="alert">
+  <p class="alert-link">You can create a new request by following the below link</p>
+    </div>
+
+    <h3>
+         <a href = "{{ url_for('index') }}">Return to home page</a>
+    </h3>
+
+    <img src="{{url_for('static', filename='di_caprio_bezos.gif')}}"
+         alt="Penalty gif" height="700" class="center-img">
+
+</body>
+</html>
