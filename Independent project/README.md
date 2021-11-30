@@ -15,7 +15,10 @@ Northwestern University, MS in Analytics:
 The below file includes step-by-step instructions to running this framework and launching a 
 Dockerized product for exploration.
 
-However, some explanatory files (including a full report and literature review notes) 
+Please note that some data files such as GLOVE embeddings and raw Amazon reviews (too large to be hosted on github) 
+should be added to the data folder prior to running.
+
+Some explanatory files (including a full report and literature review notes) 
 are available in the ``` deliverables``` folder
 
 ## Structure of repository
